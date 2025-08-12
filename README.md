@@ -58,6 +58,10 @@ task6_results.csv → Output CSV of monthly revenue and order volume.
 
 task6.sql → SQL query used to produce the results.
 
+olist_order_payments_dataset.csv
+
+olist_order_dataset.csv
+
 README.md → Task documentation (this file).
 ```
 
@@ -76,3 +80,4 @@ Paste and run the SQL query from task6.sql.
 
 Export the results as task6_results.csv.
 ```
+
