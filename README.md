@@ -37,7 +37,7 @@ For this task, we used:
 
 ---
 
-## 🖥 SQL Query
+# 🖥 SQL Query
 ```sql
 SELECT
   CAST(strftime('%Y', o.order_purchase_timestamp) AS INTEGER) AS year,
@@ -50,18 +50,18 @@ JOIN olist_order_payments_dataset p
 WHERE o.order_purchase_timestamp IS NOT NULL
 GROUP BY year, month
 ORDER BY year, month;
+```
 
-
-
-
-📁 Files in This Repository
+##📁 Files in This Repository
+```
 task6_results.csv → Output CSV of monthly revenue and order volume.
 
 task6.sql → SQL query used to produce the results.
 
 README.md → Task documentation (this file).
-
-📌 How to Run
+```
+#📌 How to Run
+```
 Open DB Browser for SQLite.
 
 Import both CSVs into tables named:
@@ -73,3 +73,4 @@ olist_order_payments_dataset
 Paste and run the SQL query from task6.sql.
 
 Export the results as task6_results.csv.
+```
